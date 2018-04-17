@@ -1,0 +1,29 @@
+git status
+git status -s
+git diff
+  changed but not staged
+git diff --staged
+  staged changes
+
+git rm
+git mv
+
+git log
+git log --stat
+git log --pretty=oneline
+git log -S function_name
+
+git commit --amend
+git reset
+  unstage a file
+
+git remote
+git remote show remote_name
+
+git remote rename old_remote_name new_remote_name
+git remote add remote_name git@github.com:rmcheng/hello-world.git
+git remote remove remote_name
+
+git push remote_name master
+git fetch remote_name
+
