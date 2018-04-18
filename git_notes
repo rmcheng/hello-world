@@ -27,6 +27,7 @@ git remote remove remote_name
 git push remote_name master
 git fetch remote_name
 
+<<<<<<< HEAD
 git branch testing
   create new branch
 git checkout testing
@@ -44,3 +45,6 @@ git branch --list
 
 git status 
   for merge conflicts, will show differences between branches in file
+=======
+blah blah blah
+>>>>>>> hello-branch2
